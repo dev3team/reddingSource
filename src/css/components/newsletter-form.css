@@ -1,0 +1,25 @@
+/* Hide Default Checkbox */
+[type='checkbox']:not(:checked),
+[type='checkbox']:checked {
+  @apply absolute opacity-0;
+}
+
+/* Text Styling / Unchecked box styling (all before: psuedo classes) / Checked box styling (all after: psuedo classes) */
+[type='checkbox']:not(:checked) + label,
+[type='checkbox']:checked + label {
+  @apply before:absolute after:absolute relative before:inset-0 after:inset-0 pl-8 pt-0.5 before:w-6 after:w-6 before:h-6 after:h-6 leading-none after:bg-green-500 before:bg-white before:border-2 before:border-beige-800 after:border-2 after:border-green-500 before:rounded-md after:rounded-md cursor-pointer after:transition-all after:ease-in-out;
+}
+
+/* Hide Check Style */
+[type='checkbox']:not(:checked) + label {
+  @apply after:opacity-0;
+}
+
+/* Show Checked Style */
+[type='checkbox']:checked + label {
+  @apply after:opacity-100;
+}
+
+[type='checkbox']:focus + label {
+  @apply before:border-green-500;
+}

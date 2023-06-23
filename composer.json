@@ -1,0 +1,36 @@
+{
+  "name": "creativedotdesign/tofino",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "A WordPress starter theme for jumpstarting custom theme development.",
+  "homepage": "https://github.com/creativedotdesign/tofino",
+  "authors": [
+    {
+      "name": "Daniel Hewes",
+      "email": "daniel@danimalweb.co.uk",
+      "homepage": "https://github.com/danimalweb"
+    },
+    {
+      "name": "Jake Gully",
+      "email": "chimpytk@gmail.com",
+      "homepage": "https://github.com/mrchimp"
+    }
+  ],
+  "keywords": ["WordPress", "theme", "tofino"],
+  "require": {
+    "php": ">=7.3.0",
+    "composer/installers": "~v1.10.0",
+    "mindkomm/theme-lib-mix": "^1.1",
+    "respect/validation": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tofino\\": "src/lib/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

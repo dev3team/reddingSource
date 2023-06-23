@@ -1,0 +1,31 @@
+.page-link-tiles-center .page-link-tile:first-of-type {
+  @apply xl:col-start-3;
+}
+
+.page-link-tile {
+  @apply md:after:-bottom-2 md:after:-right-2 after:opacity-0 after:duration-500;
+
+  .tile-aspect {
+    @apply after:bg-opacity-15 after:transition after:duration-500;
+  }
+
+  .hover-content {
+    @apply invisible opacity-0 max-h-0;
+
+    transition-duration: 500ms, 500ms;
+    transition-timing-function: ease-out;
+    transition-property: opacity, max-height;
+  }
+}
+
+.page-link-tile:hover {
+  @apply md:after:opacity-100;
+
+  .tile-aspect {
+    @apply md:after:bg-opacity-60;
+  }
+
+  .hover-content {
+    @apply md:max-h-[11rem] md:opacity-100 md:visible;
+  }
+}

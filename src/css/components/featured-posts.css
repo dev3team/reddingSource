@@ -1,0 +1,7 @@
+@media (max-width: 1023px) {
+  .featured-posts {
+    .swiper-slide-active {
+      @apply after:opacity-100;
+    }
+  }
+}

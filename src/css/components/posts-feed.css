@@ -1,0 +1,18 @@
+.js-active-tag {
+  @apply !text-orange-500;
+}
+
+/* Module Specific Spacing */
+.module-posts-feed {
+  .posts-feed {
+    @apply py-10 md:py-14 xl:py-20;
+  }
+}
+
+.module-featured-links + .module-posts-feed {
+  @apply -mt-16 md:-mt-20 lg:mt-0 xl:-mt-10;
+
+  .posts-feed {
+    @apply pt-0;
+  }
+}

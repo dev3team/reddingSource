@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'base/alerts';
+@import 'base/menu';
+@import 'base/misc';
+@import 'base/social-icons';
+@import 'base/structure';
+@import 'base/utilities';
+
+@import 'components/breadcrumb';
+@import 'components/buttons';
+@import 'components/content-carousel';
+@import 'components/event-single';
+@import 'components/event-form';
+@import 'components/featured-cta';
+@import 'components/featured-posts';
+@import 'components/footer';
+@import 'components/general-content';
+@import 'components/menu';
+@import 'components/newsletter';
+@import 'components/newsletter-form';
+@import 'components/posts-feed';
+@import 'components/search';
+@import 'components/static-map';
+@import 'components/tabbed-content';
+@import 'components/team.css';
+@import 'components/visual-page-links';
+@import 'components/vector-map';
+
+@import 'tailwindcss/utilities';

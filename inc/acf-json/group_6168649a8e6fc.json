@@ -1,0 +1,187 @@
+{
+    "key": "group_6168649a8e6fc",
+    "title": "Featured Posts",
+    "fields": [
+        {
+            "key": "field_61fae349b30d8",
+            "label": "Color Pattern",
+            "name": "color_pattern",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "light": "Light",
+                "dark": "Dark"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_616864dab5383",
+            "label": "Featured Posts Type",
+            "name": "featured_posts_type",
+            "type": "acfe_post_types",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": "",
+            "field_type": "select",
+            "default_value": [],
+            "return_format": "object",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "choices": [],
+            "ajax": 0,
+            "placeholder": "",
+            "search_placeholder": "",
+            "layout": "",
+            "toggle": 0,
+            "allow_custom": 0
+        },
+        {
+            "key": "field_61f86838d528e",
+            "label": "Order By",
+            "name": "order_by",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "recent_posts": "Recent Posts",
+                "tag": "Tag"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_61f868f8f14e5",
+            "label": "Tag Selection",
+            "name": "tag_selection",
+            "type": "acfe_taxonomy_terms",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61f86838d528e",
+                        "operator": "==",
+                        "value": "tag"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": [
+                "post_tag"
+            ],
+            "allow_terms": "",
+            "allow_level": "",
+            "field_type": "select",
+            "default_value": [],
+            "return_format": "object",
+            "ui": 0,
+            "allow_null": 0,
+            "multiple": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "choices": [],
+            "ajax": 0,
+            "placeholder": "",
+            "search_placeholder": "",
+            "layout": "",
+            "toggle": 0,
+            "allow_custom": 0,
+            "other_choice": 0
+        },
+        {
+            "key": "field_616864a3b5382",
+            "label": "Posts Title",
+            "name": "posts_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6169e84f11def",
+            "label": "CTA Button",
+            "name": "cta_button",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1643832182,
+    "acfe_categories": {
+        "modules": "Modules"
+    }
+}

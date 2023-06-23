@@ -1,0 +1,49 @@
+{
+    "key": "group_61fc3c6a465e0",
+    "title": "Blog Post Meta",
+    "fields": [
+        {
+            "key": "field_61fc3c9181573",
+            "label": "Source Link",
+            "name": "source_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1643920574,
+    "acfe_categories": {
+        "post-meta": "Post Meta"
+    }
+}

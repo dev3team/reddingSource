@@ -1,0 +1,15 @@
+.social-icons {
+  @apply pl-0 list-none;
+
+  li {
+    @apply inline-block;
+  }
+
+  svg {
+    @apply w-6 h-6;
+  }
+
+  a {
+    @apply block;
+  }
+}

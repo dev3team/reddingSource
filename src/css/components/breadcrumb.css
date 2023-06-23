@@ -1,0 +1,11 @@
+.breadcrumb-wrapper {
+  @apply hidden absolute top-5 left-5 md:flex text-sm uppercase font-runda text-green-400 tracking-wider font-bold;
+
+  li {
+    @apply flex items-center;
+  }
+
+  .breadcrumb-separator {
+    @apply h-3.5 inline-flex w-2 mx-2.5;
+  }
+}

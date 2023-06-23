@@ -1,0 +1,11 @@
+#vector-map-container svg .map-pin-group {
+  @apply hidden transition-opacity duration-700 opacity-0;
+
+  &.active {
+    @apply block opacity-100;
+  }
+}
+
+button[data-map-key].active span {
+  @apply text-green-800;
+}

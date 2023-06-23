@@ -1,0 +1,7 @@
+<svg class="h-5 ml-2 text-white transition-button duration-500 ease-in-out fill-current -translate-x-1.5 group-hover:translate-x-0" viewBox="0 0 33.31 22.02">
+  <title>Button Arrow Large</title>
+  <!-- Arrow Head -->
+  <path d="M22.44 21.88 33.3 11.02 22.44.15a.489.489 0 0 0-.69 0c-.06.06-.1.13-.13.21-1.12 4.01.7 8.27 4.39 10.22.24.12.34.42.22.66-.05.09-.12.17-.22.22a8.857 8.857 0 0 0-4.39 10.22c.08.26.35.41.61.34.08-.04.16-.09.21-.14" />
+  <!-- Arrow Body -->
+  <path class="transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100" d="M27.3 12.2V9.82c0-.55-.45-1-1-1H.99c-.55 0-1 .45-1 1v2.39c0 .55.45 1 1 1H26.3c.55-.01 1-.45 1-1.01" />
+</svg>

@@ -1,0 +1,252 @@
+{
+    "key": "group_61685a7c587b7",
+    "title": "Marquee",
+    "fields": [
+        {
+            "key": "field_61685a852caa2",
+            "label": "Marquee Type",
+            "name": "marquee_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Default",
+                "home": "Home",
+                "narrow": "Narrow"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_61b3af8868524",
+            "label": "Option Type",
+            "name": "option_type",
+            "type": "radio",
+            "instructions": "Display the featured image or a video",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61685a852caa2",
+                        "operator": "==",
+                        "value": "home"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "featured_image": "Featured Image",
+                "video": "Video"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_61b3afe762a78",
+            "label": "Video Poster Image",
+            "name": "video_poster_image",
+            "type": "image",
+            "instructions": "Image to display while the video is loading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61685a852caa2",
+                        "operator": "==",
+                        "value": "home"
+                    },
+                    {
+                        "field": "field_61b3af8868524",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "acfe_thumbnail": 0,
+            "return_format": "id",
+            "preview_size": "medium",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "library": "all"
+        },
+        {
+            "key": "field_61b3b074627c4",
+            "label": "Video mp4",
+            "name": "video_mp4",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61685a852caa2",
+                        "operator": "==",
+                        "value": "home"
+                    },
+                    {
+                        "field": "field_61b3af8868524",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "return_format": "array",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "mp4",
+            "library": "all"
+        },
+        {
+            "key": "field_6169e824adfa3",
+            "label": "Top Label",
+            "name": "top_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61685ad42caa4",
+            "label": "Marquee Title",
+            "name": "marquee_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61685ae92caa5",
+            "label": "Marquee Copy",
+            "name": "marquee_copy",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61685a852caa2",
+                        "operator": "==",
+                        "value": "home"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": "",
+            "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_61685b142caa6",
+            "label": "Marquee CTA",
+            "name": "marquee_cta",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61685a852caa2",
+                        "operator": "==",
+                        "value": "home"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1639621539,
+    "acfe_categories": {
+        "modules": "Modules"
+    }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "tofino",
+  "private": true,
+  "version": "3.3.2",
+  "description": "A WordPress starter theme for jumpstarting custom theme development.",
+  "keywords": [
+    "WordPress",
+    "theme",
+    "tofino"
+  ],
+  "scripts": {
+    "dev": "npm run development",
+    "development": "TAILWIND_MODE=build mix",
+    "watch": "TAILWIND_MODE=watch mix watch",
+    "watch-poll": "TAILWIND_MODE=watch mix watch -- --watch-options-poll=1000",
+    "hot": "TAILWIND_MODE=watch mix watch --hot",
+    "prod": "npm run production",
+    "production": "TAILWIND_MODE=build mix --production"
+  },
+  "author": "Daniel Hewes <daniel@creativedotdesign.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creativedotdesign/tofino.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creativedotdesign/tofino/issues"
+  },
+  "homepage": "https://creativedotdesign.com",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "browserslist": "last 2 Chrome versions, last 2 Firefox versions, last 2 safari versions",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/preset-env": "^7.16.4",
+    "@popperjs/core": "^2.10.2",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "@vee-validate/rules": "^4.5.2",
+    "autoprefixer": "^10.3.5",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "laravel-mix": "^6.0.39",
+    "lodash-es": "^4.17.21",
+    "postcss": "^8.4.6",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.4.1",
+    "prettier-plugin-tailwind": "^2.2.12",
+    "stylelint": "^14.2.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^6.0.0",
+    "svg-spritemap-webpack-plugin": "^4.3.2",
+    "tailwindcss": "^3.0.22",
+    "tailwindcss-autofill": "github:creativedotdesign/tailwindcss-autofill",
+    "tailwindcss-shadow-fill": "github:creativedotdesign/tailwindcss-shadow-fill",
+    "tailwindcss-text-fill": "github:creativedotdesign/tailwindcss-text-fill",
+    "vue": "^3.2.29",
+    "vue-loader": "^16.8.1",
+    "vuex": "^4.0.2"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.4",
+    "@tailwindcss/typography": "^0.5.2",
+    "@vueuse/core": "^8.2.5",
+    "body-scroll-lock": "^3.1.5",
+    "pinia": "^2.0.11",
+    "sharelinks": "^3.0.2",
+    "swiper": "^7.0.9",
+    "v-calendar": "^3.0.0-alpha.6",
+    "vee-validate": "^4.5.7",
+    "webfontloader": "github:creativedotdesign/webfontloader#feature/google-fonts-v2",
+    "yup": "^0.32.11"
+  }
+}

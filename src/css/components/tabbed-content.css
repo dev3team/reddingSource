@@ -1,0 +1,7 @@
+.tabbed-content {
+  @apply text-base;
+
+  a {
+    @apply font-bold text-blue-700 hover:underline;
+  }
+}

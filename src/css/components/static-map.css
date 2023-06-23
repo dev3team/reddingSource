@@ -1,0 +1,3 @@
+.static-map-vector-container svg {
+  @apply h-full transform translate-x-40 md:translate-x-48 md:-translate-y-4 lg:translate-y-0 xl:translate-x-0;
+}

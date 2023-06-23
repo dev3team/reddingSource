@@ -1,0 +1,57 @@
+{
+    "key": "group_61da428eaaa97",
+    "title": "Code Block",
+    "fields": [
+        {
+            "key": "field_61da429c5dd90",
+            "label": "Code Block",
+            "name": "code_block",
+            "type": "acfe_code_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "mode": "text\/html",
+            "lines": 1,
+            "indent_unit": 4,
+            "maxlength": "",
+            "rows": 4,
+            "max_rows": "",
+            "return_entities": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1641693933,
+    "acfe_categories": {
+        "modules": "Modules"
+    }
+}

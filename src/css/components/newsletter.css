@@ -1,0 +1,4 @@
+.bridge-graphic {
+  @apply after:absolute after:bg-green-500 after:w-full after:h-0.5 after:bottom-1.5 after:right-28 md:after:h-1 md:after:bottom-2 md:after:right-44 lg:after:h-1.5 lg:after:bottom-3.5 lg:after:right-96;
+}
+

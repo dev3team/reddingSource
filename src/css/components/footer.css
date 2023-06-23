@@ -1,0 +1,56 @@
+footer {
+  .footer-nav {
+    @apply mx-auto w-9/12 max-w-4xl columns-2 md:columns-3 lg:columns-4 gap-x-4 md:gap-x-16 lg:gap-x-10 text-beige-200;
+
+    li {
+      @apply mb-1.5 text-sm;
+    }
+
+    & > li:nth-child(2) {
+      @apply md:mb-0;
+
+      li:last-child {
+        @apply md:mb-0;
+      }
+    }
+
+    & > li:nth-child(4) {
+      @apply mb-0 md:mb-6;
+
+      li:last-child {
+        @apply mb-0 md:mb-1.5;
+      }
+    }
+
+    /* Parent Page Styling */
+    .top-level-menu-item {
+      @apply mb-6 break-inside-avoid;
+
+      & > a {
+        @apply block mb-1.5 text-yellow-500 leading-tight text-base font-bold tracking-wider uppercase;
+      }
+    }
+  }
+
+  /* Break after Events column on desktop */
+  .footer-events {
+    @apply lg:break-after-column;
+  }
+
+  /* Social Icons */
+  .social-icons {
+    @apply flex justify-center mb-5;
+
+    li {
+      @apply mx-2;
+
+      a {
+        @apply w-7 h-7 text-beige-200;
+
+        svg {
+          @apply w-full h-full fill-current;
+        }
+      }
+    }
+  }
+}

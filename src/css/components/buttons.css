@@ -1,0 +1,15 @@
+.button-green {
+  @apply bg-green-400 hover:bg-yellow-500;
+}
+
+.button-dark-green {
+  @apply bg-green-800 hover:bg-orange-500;
+}
+
+.button-yellow {
+  @apply hover:bg-green-400 bg-yellow-500;
+}
+
+.button-orange {
+  @apply hover:bg-yellow-500 bg-orange-500;
+}

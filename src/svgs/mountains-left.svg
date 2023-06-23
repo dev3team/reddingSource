@@ -1,0 +1,6 @@
+<svg class="absolute bottom-0 h-24 text-green-500 fill-current md:h-36 lg:h-56 -left-16 md:-left-24 lg:left-0" viewBox="0 0 545.81 235.5">
+  <title>Mountains Graphic</title>
+  <path class="opacity-70" d="M416.53 174.86 307.07 65.4l-.03-.09-.03.03-.03-.03-.03.09-66.36 66.36L344.32 235.5h132.85z" />
+  <path d="M240.59 131.76 108.91.09l-.03-.09-.03.02-.03-.02-.03.09L0 108.88V235.5h344.32z" />
+  <path class="opacity-30" d="m450.88 140.52-.03.02-.03-.02-.03.08-34.26 34.26 60.64 60.64h68.64l-94.9-94.9z" />
+</svg>

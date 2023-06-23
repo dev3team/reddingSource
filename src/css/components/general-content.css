@@ -1,0 +1,56 @@
+.general-content {
+  h1 {
+    @apply mb-1.5 leading-none tracking-wide text-green-800 uppercase text-2 md:text-3.375;
+
+  }
+
+  h2 {
+    @apply mb-1 text-lg leading-none text-green-800 uppercase font-runda md:text-2xl md:leading-none;
+  }
+
+  h3,
+  h4 {
+    @apply mb-1 text-base font-bold leading-none text-green-500 uppercase font-runda md:text-xl md:leading-none;
+  }
+
+  p,
+  ul,
+  ol,
+  .crowdriff-wrapper {
+    @apply mb-5;
+  }
+
+  a {
+    @apply !font-bold text-green-800;
+  }
+
+  ul {
+    li {
+      @apply relative pl-4;
+    }
+
+    li::before {
+      @apply absolute left-0 w-1 h-1 bg-current rounded-full top-[0.65rem];
+
+      content: '';
+    }
+  }
+
+  .wp-caption {
+    @apply !w-full;
+
+    .wp-caption-text {
+      @apply text-sm pt-2 md:text-sm;
+    }
+  }
+
+  img {
+    @apply w-full h-auto;
+  }
+}
+
+.blog-content {
+  p:first-of-type {
+    @apply text-1.375 leading-tight md:text-2xl;
+  }
+}

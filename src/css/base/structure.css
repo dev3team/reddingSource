@@ -1,0 +1,43 @@
+html {
+  @apply h-full;
+}
+
+body {
+  @apply antialiased text-gray-500 font-runda;
+
+  &.footer-sticky {
+    @apply flex flex-col min-h-screen;
+
+    .wrapper {
+      flex: 1 0 auto;
+
+      @apply w-full;
+    }
+  }
+
+  &.no-fout {
+    @apply invisible;
+
+    .wf-inactive &,
+    .wf-active & {
+      @apply visible;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-black font-poppins;
+}
+
+.wrapper {
+  @apply absolute;
+}
+
+footer {
+  @apply bg-gray-100;
+}

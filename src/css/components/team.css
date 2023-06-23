@@ -1,0 +1,25 @@
+.show-frame {
+  @apply offset-frame-right duration-500 offset-frame-light-green;
+}
+
+.team-bio-button {
+  @apply text-gray-300;
+
+  svg:last-of-type{
+    @apply hidden;
+  }
+
+  &.active {
+    @apply text-green-800;
+
+    svg {
+      &:first-of-type {
+        @apply hidden;
+      }
+
+      &:last-of-type {
+        @apply block;
+      }
+    }
+  }
+}

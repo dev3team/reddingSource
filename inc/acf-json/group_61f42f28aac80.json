@@ -1,0 +1,113 @@
+{
+    "key": "group_61f42f28aac80",
+    "title": "Database",
+    "fields": [
+        {
+            "key": "field_61fc0f0889bcd",
+            "label": "Layout Style",
+            "name": "layout_style",
+            "type": "radio",
+            "instructions": "Please select either Map of Grid layout style.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "map": "Map",
+                "grid": "Grid"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_61f42f39d0436",
+            "label": "Database",
+            "name": "database_terms",
+            "type": "acfe_taxonomy_terms",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": [
+                "database_categories"
+            ],
+            "allow_terms": "",
+            "allow_level": "",
+            "field_type": "checkbox",
+            "default_value": [],
+            "return_format": "id",
+            "layout": "horizontal",
+            "toggle": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "choices": [],
+            "ui": 0,
+            "multiple": 0,
+            "allow_null": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "search_placeholder": "",
+            "allow_custom": 0,
+            "other_choice": 0
+        },
+        {
+            "key": "field_61fac8f190bac",
+            "label": "Hide Filter",
+            "name": "database_hide_filter",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1643910448,
+    "acfe_categories": {
+        "modules": "Modules"
+    }
+}

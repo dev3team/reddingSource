@@ -1,0 +1,29 @@
+/* Custom File Upload */
+[type='file'] {
+  display: none;
+}
+
+.fieldset-title {
+  @apply block mb-3 text-green-800 font-poppins text-2xl font-black tracking-wide leading-none uppercase;
+}
+
+.text-input-style {
+  @apply autofill:text-fill-green-800 autofill:shadow-fill-white px-4 py-2.5 w-full text-green-800 border focus:border-green-500 rounded-lg outline-none focus:outline-none transition-colors duration-300 ease-in-out focus:ring-transparent;
+}
+
+.text-input-valid {
+  @apply placeholder-green-800 border-gray-100;
+}
+
+.text-input-invalid {
+  @apply text-orange-500 border-orange-500 focus:border-orange-500;
+}
+
+.vc-time-date,
+.vc-time-icon {
+  @apply !hidden;
+}
+
+.vc-select select {
+  @apply bg-none;
+}
